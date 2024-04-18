@@ -1,8 +1,10 @@
 #! /usr/bin/env node 
 
 import inquirer from "inquirer";
-
 async function my_Bank() {
+console.log("\nWelcome to ATM\n");
+console.log("-------mypincode : 32361055------------\n");
+
 
     let mybalance = 70000;
     let myPinCode = 32361055;
